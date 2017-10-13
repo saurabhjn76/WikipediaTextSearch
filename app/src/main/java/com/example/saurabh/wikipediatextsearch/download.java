@@ -197,9 +197,9 @@ public class DownloadHash extends Activity {
             finish();
             // Displaying downloaded image into image view
             // Reading image path from sdcard
-            //String imagePath = Environment.getExternalStorageDirectory().toString() + "/downloadedfile.jpg";
+            String imagePath = Environment.getExternalStorageDirectory().toString() + "/downloadedfile.jpg";
             // setting downloaded into image view
-           // my_image.setImageDrawable(Drawable.createFromPath(imagePath));
+            my_image.setImageDrawable(Drawable.createFromPath(imagePath));
         }
 
     }
