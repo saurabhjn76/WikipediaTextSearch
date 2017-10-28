@@ -9,11 +9,14 @@ An app which will download results of a search query from Wikipedia using a dist
 
 In this phase, we will first initialize the app.
 Then we will add a basic UI to it and the feature to make phones connect and work together as a group. This group will be later responsible for downloading data distributively. 
+![Imgur](https://i.imgur.com/BgrJZ80.png)
 
 
 ### Distributed Wikipedia download feature
 
 In this phase, we will add the feature to download data from Wikipedia. The work will be divided by the node which behaves as the central server. It will see the number of client nodes and based on that, it will divide the work like, articles starting from A-C go in Client 1, D-F go in Client 2 and so on.
+![Imgur](https://i.imgur.com/sDGETy2.png)
+
 
 ### Distributed Search Feature 
 
